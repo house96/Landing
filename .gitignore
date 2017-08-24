@@ -1,0 +1,13 @@
+/node_modules
+/build
+
+/classpath.txt
+/test-classpath.txt
+/docpath.txt
+
+*.log
+*.log.*
+.idea
+*.iml
+*.vsix
+.DS_stor
