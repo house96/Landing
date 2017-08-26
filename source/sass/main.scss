@@ -7,9 +7,13 @@
 @import "global/base";
 @import "global/common";
 @import "global/sprite";
+@import "global/icon";
 @import "global/button";
 
 
 // Section
+@import "section/title";
 @import "section/header";
-@import "section/nav"
+@import "section/nav";
+@import "section/hero";
+@import "section/about";
