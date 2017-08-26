@@ -17,5 +17,9 @@
     "gulp.spritesmith": "^6.5.1",
     "rimraf": "^2.6.1"
   },
-  "version": ""
+  "version": "",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
+  }
 }
