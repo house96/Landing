@@ -10,7 +10,7 @@
     transition: .3s;
 
     &:hover {
-      background: lighten(#de2b24, 7%);
+      background: lighten(#de2b24, 10%);
     }
   }
   &--yellow {
@@ -18,7 +18,7 @@
     transition: .3s;
 
     &:hover {
-      background: lighten(#f8cd53, 7%);
+      background: lighten(#f8cd53, 10%);
     }
   }
   &--text-uppercase {
