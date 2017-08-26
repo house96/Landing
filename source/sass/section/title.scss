@@ -1,0 +1,32 @@
+.title {
+  margin-bottom: 65px;
+  text-align: center;
+
+    &__header {
+      margin: 0;
+      font-size: 2.25rem;
+      font-family: $ff-main-bold; 
+      line-height: 1;   
+    }
+
+    &__text {
+      font-size: 1.25px;
+      font-family: $ff-main-light;
+    }
+
+    &--bottom-line {
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -16px;
+        transform:translateX(-50%);
+        width: 47px;
+        height: 5px;
+        background: #424242;
+
+      }
+    }
+} 
