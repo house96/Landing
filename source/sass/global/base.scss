@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+html {
+  @media(max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
 body {
   font-family: $ff-main;
   font-size: 1rem;
