@@ -1,13 +1,11 @@
-(function(){
-  var openFormButton = document.querySelector('.arrow-down');
+(function () {
+ var openFormButton = document.querySelector('.btn-down');
 
- 
-  
+
 
   if(openFormButton) {
     openFormButton.addEventListener('click', function() {
       form.open();
     })
   }
-
 }());
